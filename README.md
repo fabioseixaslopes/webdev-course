@@ -1,4 +1,4 @@
-# android-java-course
+# webdev-course
 
 Developed work for an online web developer course on Udemy. An opportunity to review some basics and improve by doing more projects.
 
