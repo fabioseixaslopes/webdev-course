@@ -6,14 +6,23 @@
     <form>
       <p><input></p> <!-- like this is just a box -->
       <p>Username: <input type="text"></p> <!-- default type -->
-      <p>Stay logged in <input type="checkbox"></p> <!-- checkbox type-->
-      <p>Less than 5 <input type="radio" name="hours"> More than 5 <input type="radio" name="hours"></p>  <!-- radio type linked by "name" which means only one can be selected at a time-->
+      <p>Username Default: <input type="text" value="John"></p> <!-- default type with default value -->
+      <p>Username Hint: <input type="text" placeholder="John"></p> <!-- default type with hint value -->
+      <p>Stay logged in <input type="checkbox"></p> <!-- checkbox type -->
+      <p>Stay logged in <input type="checkbox" checked></p> <!-- checkbox type, already checked -->
+      <!-- radio type linked by "name" which means only one can be selected at a time, value allows to know what was selected by the user -->
+      <p>Less than 5 <input type="radio" name="hours" value="u18"> More than 5 <input type="radio" name="hours" value="over18"></p>
       <!-- dropdown -->
-      <select>
-        <option>
-          
-        </option>
-      </select>
+      <p>Favourite Food:
+        <select>
+          <option>Pizza</option> <!-- first option is shown/selected by default -->
+          <option selected>Burguer</option> <!-- but the selected tag defines what option can be selected -->
+          <option>Pasta</option>
+        </select>
+      </p>
+      <!-- submit button -->
+      <p><input type="submit"></p>
+      <p><input type="submit" value="Click me!"></p>
     </form>
   </body>
 </html>
