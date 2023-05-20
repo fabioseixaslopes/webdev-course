@@ -1,17 +1,18 @@
 <!-- the exercise is replicating a given web page -->
+<!doctype html>
 <html>
   <head>
     <title>Hello World!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <h1>Hello World!</h1>
     <h2>A few facts about the world we live in</h2>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/330px-The_Blue_Marble_%28remastered%29.jpg">
     <p>Earth is the third planet from the Sun and is the largest of the terrestrial planets.
-      The Earth is the only planet in our solar system not to be named after a Greek or Roman
-      deity. The earth was formed approximately 4.54 billion years ago and is the only known planet
-      to support life.
-    </p>
+      The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The earth was formed approximately 4.54 billion years ago and is the only known planet to support life.</p>
     <hr>
     <h3>About the earth</h3>
     <ul>
@@ -51,11 +52,16 @@
     <hr>
     <form>
       <p>Want to know more?</p>
-      <button type="button" onclick="alert('https:\/\/space-facts.com/earth/')">Click here</button>
+      <button type="button" onclick="alert('https:\/\/space-facts.com/earth/')">Click for Alert</button>
+      <button type="button" onclick="location.href='https://space-facts.com/earth'">Click for Redirecting</button>
+      <button type="button" onclick="window.open('https://space-facts.com/earth','blank');">Click for New Tab</button>
+    </form>
+    <form action="https://space-facts.com/earth">
+      <input type="submit" value="Click here also" />
     </form>
     <br>
     <br>
-    <video src="assets/earth.mp4" width="50%" controls autoplay></video>
+    <video src="assets/earth.mp4" width="50%" controls autoplay type="video/mp4"></video>
     <br>
     <br>
   </body>
