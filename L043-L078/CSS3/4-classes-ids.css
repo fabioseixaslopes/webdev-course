@@ -1,6 +1,7 @@
 body {
   background-color: powderblue;
 }
+/* using some css properties */
 h1 {
   color: blue;
   font-family: verdana;
@@ -8,7 +9,13 @@ h1 {
   padding: 30px;
   margin: 50px;
 }
+/* class selector uses a dot */
+.yellow {
+  color:yellow;
+}
+/* selector for all p elements */
 p {
   color: red;
   font-family: courier;
 }
+
