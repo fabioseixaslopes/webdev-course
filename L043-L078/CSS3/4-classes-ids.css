@@ -9,13 +9,23 @@ h1 {
   padding: 30px;
   margin: 50px;
 }
-/* class selector uses a dot */
-.yellow {
-  color:yellow;
-}
 /* selector for all p elements */
 p {
   color: red;
   font-family: courier;
 }
-
+/* class selector uses a dot */
+.yellow {
+  color:yellow;
+}
+.large{
+  font-size: 200%;
+}
+/* for IDs, user # */
+#green{
+  color:green;
+}
+#blue{
+  color:blue;
+  text-decoration: underline;
+}
