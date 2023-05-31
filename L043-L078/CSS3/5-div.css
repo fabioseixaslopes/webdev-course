@@ -1,0 +1,14 @@
+#first-section {
+  color: blue;
+  background-color: red;
+  width: 50%;
+}
+#second-section {
+  color:yellow;
+  background-color: gray;
+}
+#third-section {
+  color:yellow;
+  background-color: gray;
+  width: 100px;
+}
