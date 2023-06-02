@@ -1,0 +1,29 @@
+p {
+  color: blue;
+}
+#first-section {
+  background-color: red;
+  width: 200px;
+  /** float can be right or left **/
+  float: left;
+}
+#second-section {
+  background-color: #17A589;
+  width: 200px;
+  float: left;
+}
+#third-section {
+  background-color: yellow;
+  width: 200px;
+  float: right;
+}
+#fourth-section {
+  background-color: green;
+  width: 200px;
+}
+/** this clears float and element appears bellow float elements **/
+.clear-float {
+  background-color: black;
+  width: 200px;
+  clear:both;
+}
