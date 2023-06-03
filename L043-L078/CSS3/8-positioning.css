@@ -5,11 +5,27 @@ p {
   background-color: red;
   width: 200px;
   position: relative;
-  left: 200px;
+  left: 120px; /* move left or right */
+  top: 50px; /* move up or down */
+  z-index: 1; /* move front or back */
+  /* the higher number goes on the front */
+  /* z-index only works for positioned elements (absolute, relative, fixed or sticky) and flex elements */
 }
 #second-section {
   background-color: #17A589;
   width: 200px;
   position: relative;
   left: -50px;
+  top: -10px;
+  z-index: 0;
+  /* if the same z-index value, the last html element will be displayed on top */
+}
+#third-section {
+  background-color:blue;
+  width: 200px;
+  position: relative;
+  left: 250px;
+  top: -70px;
+  z-index: 1;
+  opacity: 0.5;
 }

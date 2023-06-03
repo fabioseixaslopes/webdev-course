@@ -4,7 +4,7 @@ p {
 #first-section {
   background-color: red;
   width: 200px;
-  /** float can be right or left **/
+  /* float can be right or left */
   float: left;
 }
 #second-section {
@@ -21,7 +21,7 @@ p {
   background-color: green;
   width: 200px;
 }
-/** this clears float and element appears bellow float elements **/
+/* this clears float and element appears bellow float elements */
 .clear-float {
   background-color: black;
   width: 200px;
