@@ -1,0 +1,32 @@
+p {
+  color: yellow;
+}
+/* a margin is the space outside an element's border, while padding is the space between an element's border and the element's content */
+#first-section {
+  background-color: red;
+  width: 200px;
+  padding: 200px;
+}
+#second-section {
+  background-color: #17A589;
+  width: 200px;
+  padding: 10px 300px;
+}
+#third-section {
+  background-color: blue;
+  width: 200px;
+  padding: 0px 300px 0px;
+}
+#fourth-section {
+  background-color: black;
+  width: 200px;
+  padding: 0px 300px 0px;
+}
+/* padding adds to the specified width */
+#fifth-section {
+  background-color: orange;
+  width: 200px;
+  padding: 0px 300px 0px;
+  box-sizing: border-box;
+  /* this includes the border in the total size of the element */
+}

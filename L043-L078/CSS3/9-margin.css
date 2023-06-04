@@ -1,0 +1,35 @@
+p {
+  color: yellow;
+}
+#first-section {
+  background-color: red;
+  width: 200px;
+  margin: 10px 20px 30px 0px;
+  /* top right bottom left */
+}
+#second-section {
+  background-color: #17A589;
+  width: 200px;
+  margin: 100px; /* affects all directions */
+}
+#third-section {
+  background-color: #17A589;
+  width: 200px;
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  /* allows to change one and leave the others as they are */
+}
+#fourth-section {
+  background-color: red;
+  width: 200px;
+  margin: 10px 20px 30px;
+  /* top right/left bottom */
+}
+#fifth-section {
+  background-color: red;
+  width: 200px;
+  margin: 10px 20px;
+  /* top/bottom right/left */
+}
