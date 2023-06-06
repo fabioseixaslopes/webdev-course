@@ -1,3 +1,28 @@
-p {
-  background-color: yellow;
+/* types of borders
+https://www.w3schools.com/css/css_border.asp */
+#first-square {
+  background-color: red;
+  border: 5px black solid;
+  border-style: ridge solid dotted dashed;
+  border-color: brown blue black yellow;
+  border-width: 10px 7px 5px 10px;
+}
+#second-square {
+  background-color: blue;
+  border-radius: 20px;
+}
+#third-square {
+  background-color: green;
+  border: 5px yellow solid;
+}
+#fourth-square {
+  background-color: green;
+  border: 5px yellow double;
+  border-radius: 50%;
+}
+.square{
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+  float: left;
 }

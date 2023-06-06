@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+p{
+  font-size: 20px;
+  font-family: Garamond, sans-serif;
+}
+h1{
+  font-family: 'Ubuntu', sans-serif;
+}
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* web safe fonts w3schools.com/cssref/css_websafe_fonts.php or use google fonts (import and follow mentioned CSS rules) */
