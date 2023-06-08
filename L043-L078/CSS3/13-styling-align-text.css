@@ -1,0 +1,33 @@
+.bold{
+  font-weight: bold;
+}
+.italic{
+  font-style: italic;
+}
+.underline{
+  text-decoration: underline;
+}
+.no-underline{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  color: green;
+}
+.big{
+  font-size: 200%;
+}
+.right-align{
+  text-align: right;
+}
+.center-align{
+  text-align: center;
+}
+div{
+  width: 800px;
+  height: 300px;
+  background-color: yellow;
+}
+.justified{
+  text-align: justify;
+}
