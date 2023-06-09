@@ -31,3 +31,13 @@ div{
 .justified{
   text-align: justify;
 }
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  /* :hover is pseudo-class */
+}
+a:visited{
+  color: green
+}
