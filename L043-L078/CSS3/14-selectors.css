@@ -1,0 +1,22 @@
+h1 {
+  color:red;
+}
+.green{
+  color:green;
+}
+#blue {
+  color: blue;
+}
+/* for p inside div */
+div p {
+  font-weight: bold;
+  font-size: larger;
+}
+/* for p inside div with a h3 */
+h3 ~ p{
+  text-decoration: underline;
+}
+/* for the first p following the h3 */
+h3 + p {
+  color: green;
+}
