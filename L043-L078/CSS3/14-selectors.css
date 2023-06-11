@@ -20,3 +20,21 @@ h3 ~ p{
 h3 + p {
   color: green;
 }
+/* if a has a target */
+a[target]{
+  color:pink;
+}
+/* a goes to specific URL */
+a[href="http://example.com"]{
+  color:red;
+}
+/* a goes contains part of URL */
+a[href*="example.com"]{
+  color:red;
+}
+/*
+^= --> begins with
+$= --> ends with
+~= --> has the value between two spaces
+|= --> has the value separated by hyphens
+*/
