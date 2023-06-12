@@ -1,0 +1,37 @@
+a:hover{
+  text-decoration: underline;
+}
+input:focus{
+  background-color: blue;
+}
+input:enabled{
+  color: yellow;
+}
+input:disabled{
+  background-color: yellow;
+}
+input:checked{
+  border: none;
+  outline: 2px solid deeppink;
+}
+/* first child p in each container */
+p:first-child{
+  color: red;
+}
+p:last-child{
+  color: blue;
+}
+/* when p is the only child */
+p:only-child{
+  color: goldenrod;
+}
+/* when p is the first of its type */
+h1:first-of-type{
+  color:green;
+}
+h1:last-of-type{
+  text-decoration: underline;
+}
+h1:only-of-type{
+  text-decoration: overline;
+}
