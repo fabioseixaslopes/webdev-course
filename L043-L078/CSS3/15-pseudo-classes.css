@@ -48,3 +48,22 @@ tr:nth-of-type(2n)
 {
   background-color: blue;
 }
+/* when empty */
+div:empty{
+  display: none;
+}
+/* h4 without green class */
+h4:not(.green) {
+  color:yellow;
+}
+.green {
+  color: green;
+}
+/* for everything not p in body*/
+body :not(p){
+  color: blue;
+}
+/* every first letter of p */
+p:first-letter{
+  font-size: 200%;
+}
