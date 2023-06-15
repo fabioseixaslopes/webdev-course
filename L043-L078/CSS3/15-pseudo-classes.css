@@ -67,3 +67,15 @@ body :not(p){
 p:first-letter{
   font-size: 200%;
 }
+/* every first line of a div */
+div:first-line{
+  font-size: 200%;
+}
+/* add something after every link */
+a:after{
+  content: " -> This is a link";
+}
+/* add the href before each link */
+a:before{
+  content: " ("attr(href)") ";
+}
