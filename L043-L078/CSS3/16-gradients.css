@@ -3,3 +3,23 @@
   height: 200px;
   background: linear-gradient(white, blue);
 }
+#gradient2{
+  width: 500px;
+  height: 200px;
+  background: linear-gradient(to right,white, blue);
+}
+#gradient3{
+  width: 500px;
+  height: 200px;
+  background: linear-gradient(to bottom right,white, blue);
+}
+#gradient4{
+  width: 500px;
+  height: 200px;
+  background: linear-gradient(to top left,white, red, green, blue);
+}
+#gradient5{
+  width: 500px;
+  height: 200px;
+  background: radial-gradient(white, blue);
+}

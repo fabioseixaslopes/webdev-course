@@ -1,0 +1,17 @@
+/* shadow two pixels to the right and two pixels down and color green, text white */
+h2{
+  text-shadow: 2px 2px green;
+  color: white;
+}
+/* with a four pixel blur */
+h3{
+  text-shadow: 2px 2px 4px;
+}
+/* use no offset for a glow effect */
+h1{
+  text-shadow: 0 0 5px red;
+}
+/* multiple shadows */
+h4{
+  text-shadow: 2px 2px green, -5px -5px 4px red;
+}
