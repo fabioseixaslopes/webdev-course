@@ -15,3 +15,16 @@ h1{
 h4{
   text-shadow: 2px 2px green, -5px -5px 4px red;
 }
+#shadow{
+  background-color: antiquewhite;
+  width: 200px;
+  height: 200px;
+  /* the 4px is blur, next is the colour */
+  box-shadow: 3px 3px 4px gray;
+}
+#shadow2{
+  background-color: antiquewhite;
+  width: 200px;
+  height: 200px;
+  box-shadow: 12px 12px 6px;
+}
