@@ -1,0 +1,47 @@
+#box{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+}
+#box:hover{
+  transform: translate(50px, 50px) skew(20deg, 30deg);
+}
+#box2{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+}
+#box2:hover{
+  transform: rotate(30deg)
+}
+#box3{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+}
+#box3:hover{
+  transform: scale(2,2) translate(50px, 50px);
+}
+#box3d{
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 200%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#box3d:content{
+  transform: scale(2,2) translate(50px, 50px);
+}
