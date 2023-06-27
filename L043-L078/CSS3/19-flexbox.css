@@ -1,0 +1,15 @@
+/* flex is more predictable and responsive than float */
+.flexbox-container{
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: aquamarine;
+  flex-direction: row-reverse;
+}
+
+.flexbox-item{
+  background-color: bisque;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
