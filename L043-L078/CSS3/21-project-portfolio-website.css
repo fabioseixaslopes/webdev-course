@@ -14,7 +14,7 @@ a{
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
 }
 a:hover{
   color:#3BBFFF;
@@ -40,7 +40,11 @@ h1{
   text-align: center;
   padding: 20px;
 }
-
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: white;
+}
 #hello-message{
   color: white;
 }
@@ -68,4 +72,29 @@ h1{
   padding: 15px;
   font-size: large;
   font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+}
+.img-projects{
+  width: 500px;
+  border-radius: 10px;
+}
+.projects-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.projects-item{
+  margin: 20px;
+  position: relative;
+}
+.projects-hover-item{
+  background-color: green;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+.projects-hover-item:hover{
+  transition: 1s ease-in-out;
+  transform: translate(0px, -120px);
 }
