@@ -45,8 +45,9 @@ h2{
   text-align: center;
   color: white;
 }
-#hello-message{
+#white-text{
   color: white;
+  text-align: center;
 }
 
 #about-me-title{
@@ -58,7 +59,7 @@ h2{
   text-align: center;
   margin: auto;
   background-color: antiquewhite;
-  width: 95%;
+  width: 90%;
   box-shadow: -7px -7px red, 7px 7px green;
 }
 .about-me-content{
@@ -97,4 +98,10 @@ h2{
 .projects-hover-item:hover{
   transition: 1s ease-in-out;
   transform: translate(0px, -120px);
+}
+#center-text{
+  text-align: center;
+}
+.contact-section{
+  background-color: rgb(5, 5, 94);
 }
