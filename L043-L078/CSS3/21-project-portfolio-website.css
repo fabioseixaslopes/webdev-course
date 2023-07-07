@@ -19,6 +19,9 @@ a{
 a:hover{
   color:#3BBFFF;
 }
+p{
+  font-family: 'Courier New', Courier, monospace;
+}
 body{
   background-color: #03092D;
 }
@@ -49,11 +52,9 @@ h2{
   color: white;
   text-align: center;
 }
-
 #about-me-title{
   color: black;
 }
-
 .about-me-container{
   padding: 10px;
   text-align: center;
@@ -84,6 +85,7 @@ h2{
   width: 100%;
   align-items: center;
   justify-content: center;
+  padding-bottom: 75px;
 }
 .projects-item{
   margin: 20px;
@@ -104,4 +106,26 @@ h2{
 }
 .contact-section{
   background-color: rgb(5, 5, 94);
+  padding: 75px;
+}
+.contact-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.contact-column{
+  margin: 20px;
+  position: relative;
+}
+.contact-column-message{
+  margin: 20px;
+  position: relative;
+  width: 40%;
+}
+.footer{
+  background-color: black;
+  height: 120px;
+  color: white;
 }
