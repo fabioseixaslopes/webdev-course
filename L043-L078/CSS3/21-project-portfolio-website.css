@@ -124,12 +124,35 @@ h2{
   position: relative;
   width: 40%;
 }
-.footer{
+#submit-button{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  position: absolute;
+  right: 19%;
+  background-color: #ADD8E6;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10%;
+}
+#submit-button:hover{
   background-color: black;
-  height: 120px;
   color: white;
 }
-#submit-button{
-  position: absolute;
-  right: 30%;
+.footer{
+  background-color: black;
+  height: 75px;
+  color: white;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.social-icons{
+  padding: 10px;
+  float: right;
+  position: relative;
+}
+.copyright{
+  float: left;
+  position: relative;
 }
